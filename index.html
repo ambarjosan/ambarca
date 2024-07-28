@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion E-commerce</title>
+    <link rel="stylesheet" href="styles1.css">
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="banner">
+        <img src="logo.png" alt="Fashion Store Logo" class="logo">
+        <h1>Canadian Fashion Store</h1>
+    </header>
+    <nav class="menu-bar">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clothing.html">Clothing</a></li>
+            <li><a href="Shoes.html">Shoes</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Trending Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <main>
+            <section class="hero">
+                <h2>Welcome to Fashion Store</h2>
+                <p>Your one-stop shop for the latest fashion trends.</p>
+                <a href="clothing.html" class="show-me-link">Show Me</a>
+            </section>
+            <section class="photo-grid">
+                <div class="photo">
+                    <img src="c1.jpg" alt="Nike Black and white">
+                    <p> Floral Print Shirt<br><br>
+                        This chic floral print dress is perfect for any occasion. It features a flattering silhouette and vibrant colors that add a touch of elegance to your wardrobe. The lightweight fabric ensures comfort all day long.
+                    </p>
+                 </div>
+                <div class="photo">
+                    <img src="c2.jpg" alt="Nike Sneakers">
+                    <p> Casual T-shirt <br><br>
+                        Stay stylish and warm with this casual denim jacket. It is designed with a classic cut and high-quality denim, making it a versatile addition to your collection. Pair it with your favorite outfits for a cool, effortless look.</p>  </div>
+                <div class="photo">
+                    <img src="1.jpg" alt="Nike Black and white">
+                    <p>Nike Black and White<br><br>Experience the ultimate in comfort and style with our Black Marathon Running Shoes. Featuring a breathable mesh upper, cushioned sole, and sleek design, these shoes are perfect for your daily jogs and workouts.</p>
+                </div>
+                <div class="photo">
+                    <img src="2.jpg" alt="Nike Sneakers">
+                    <p>Nike Sneakers<br><br>Make a bold statement with our Red Blaze Sneakers. Crafted with a durable yet lightweight fabric, these sneakers offer both style and comfort. The vibrant red color adds a pop of personality to any outfit.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

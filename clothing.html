@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="banner">
+        <img src="logo.png" alt="Fashion Store Logo" class="logo">
+        <h1>Canadian Fashion Store</h1>
+    </header>
+    <nav class="menu-bar">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clothing.html">Clothing</a></li>
+            <li><a href="Shoes.html">Shoes</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Trending Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <aside class="advert">
+            <p>Buy 2 Get 1 Free</p>
+        </aside>
+        <main>
+            <section class="items">
+                <article>
+                    <img src="c1.jpg" alt="Item 1">
+                    <p> Floral Print Shirt<br><br>
+                        This chic floral print dress is perfect for any occasion. It features a flattering silhouette and vibrant colors that add a touch of elegance to your wardrobe. The lightweight fabric ensures comfort all day long.
+                    </p>
+                </article>
+                <article>
+                    <img src="c2.jpg" alt="Item 2">
+                    <p> Casual T-shirt <br><br>
+                        Stay stylish and warm with this casual denim jacket. It is designed with a classic cut and high-quality denim, making it a versatile addition to your collection. Pair it with your favorite outfits for a cool, effortless look.</p>
+                </article>
+                <article>
+                    <img src="c3.jpg" alt="Item 3">
+                    <p>Striped Summer T-shirt <br><br>
+                        Embrace the summer vibes with this striped top. Made from breathable fabric, it offers comfort and style. The playful stripes and relaxed fit make it an ideal choice for casual outings.</p>
+                </article>
+                <article>
+                    <img src="c4.jpg" alt="Item 4">
+                    <p> Elegant Evening T-shirt<br><br>Make a statement at your next event with this elegant evening gown. The dress features a sophisticated design with intricate detailing, ensuring you stand out from the crowd. Perfect for formal occasions.
+                    </p>
+                </article>
+                <article>
+                    <img src="c5.jpg" alt="Item 5">
+                    <p>Classic Hoddies<br><br>A wardrobe essential, this classic white shirt is a must-have for every closet. Its timeless design and comfortable fit make it suitable for both professional and casual settings. Easy to pair with any outfit.</p>
+                </article>
+                <article>
+                    <img src="c6.jpg" alt="Item 6">
+                    <p>Comfortable T-Shirt<br><br> Relax in style with these comfortable lounge pants. Made from soft, stretchy material, they provide the perfect blend of comfort and flexibility. Ideal for lounging at home or casual outings.</p>
+                </article>
+                <article>
+                    <img src="c7.jpg" alt="Item 7">
+                    <p>Stylish Shirt<br><br>Elevate your office attire with this stylish blazer. Its tailored fit and high-quality fabric ensure a professional and polished look. Pair it with matching pants or a skirt for a complete ensemble.</p>
+                </article>
+                <article>
+                    <img src="c8.jpg" alt="Item 8">
+                    <p>Graphic T-Shirt<br><br>Express your personality with this graphic t-shirt. Featuring bold prints and comfortable fabric, it’s perfect for casual days out. Easy to pair with jeans or shorts for a relaxed, trendy look.</p>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

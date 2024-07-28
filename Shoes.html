@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="banner">
+        <img src="logo.png" alt="Fashion Store Logo" class="logo">
+        <h1>Canadian Fashion Store</h1>
+    </header>
+    <nav class="menu-bar">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clothing.html">Clothing</a></li>
+            <li><a href="Shoes.html">Shoes</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Trending Now</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <aside class="advert">
+            <p>Buy 3 Get 30% off</p>
+        </aside>
+        <main>
+            <section class="items">
+                <article>
+                    <img src="1.jpg" alt="Item 1">
+                    <p> Nike Black and white <br><br>
+                        Experience the ultimate in comfort and style with our Black Marathon Running Shoes. Featuring a breathable mesh upper, cushioned sole, and sleek design, these shoes are perfect for your daily jogs and workouts</p>
+                </article>
+                <article>
+                    <img src="2.jpg" alt="Item 2">
+                    <p> Nike Sneakers <br><br>
+                        Make a bold statement with our Red Blaze Sneakers. Crafted with a durable yet lightweight fabric, these sneakers offer both style and comfort. The vibrant red color adds a pop of personality to any outfit</p>
+                </article>
+                <article>
+                    <img src="3.jpg" alt="Item 3">
+                    <p>White Sneakers<br><br>
+                        Stay classic and comfortable with our White Horizon Trainers. Designed with a minimalist approach, these trainers feature a smooth leather finish and a cushioned insole, making them perfect for everyday wear</p>
+                </article>
+                <article>
+                    <img src="4.jpg" alt="Item 4">
+                    <p> Nike Black Shoes<br><br>Step into elegance with our Nude Elegance High Heels. These heels boast a sophisticated design with a pointed toe and a sleek stiletto heel, making them ideal for formal occasions or a chic night out</p>
+                </article>
+                <article>
+                    <img src="5.jpg" alt="Item 5">
+                    <p>Running Shoes<br><br>Our Brown Classic Loafers offer a timeless look with modern comfort. Made from premium leather, these loafers are perfect for both professional settings and casual outings, ensuring you stay stylish all day long.</p>
+                </article>
+                <article>
+                    <img src="6.jpg" alt="Item 6">
+                    <p>Adventures Shoes<br><br>Take on any adventure with our Black Terrain Boots. Featuring a rugged design, durable sole, and water-resistant material, these boots are perfect for hiking, outdoor activities, or adding an edge to your everyday style.</p>
+                </article>
+                <article>
+                    <img src="7.jpg" alt="Item 7">
+                    <p>Urban Sneakers<br><br>Embrace modern style with our Grey Urban Sneakers. These sneakers combine a unique design with exceptional comfort, featuring a breathable upper and cushioned sole, perfect for city exploration and casual wear</p>
+                </article>
+                <article>
+                    <img src="8.jpg" alt="Item 8">
+                    <p>Nike Brown Shoes<br><br>Step into effortless style with our Blue Serenity Flats. These flats offer a chic and comfortable design with a soft fabric upper and cushioned insole, making them perfect for casual outings and semi-formal events.</p>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
